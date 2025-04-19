@@ -29,6 +29,15 @@ hyperlocal-store-assignment/
 
 ## How to Run This Project
 
+Clone the repository:
+```bash
+git clone https://github.com/livan116/hyperlocal-store.git
+```
+Navigate to the hyperlocal-store directory:
+```bash
+cd hyperlocal-store
+```
+
 ### 1. Backend Setup
 
 Make sure MongoDB is running locally or you have a cloud MongoDB URI.
@@ -77,6 +86,16 @@ npm run dev
 
 Frontend will run on http://localhost:5173
 
+### Configure Environment
+
+Create a `.env` file inside `frontend/`:
+
+```env
+VITE_API_URL=http://localhost:5000
+```
+
+Replace with your Backend URL
+
 ## Pages Overview
 
 ### Home Page - Store Listing
@@ -115,8 +134,3 @@ These are loaded into MongoDB via the seeding script.
 - Mobile responsive UI
 - Clean, modern Tailwind styling
 
-## Notes
-
-- You can improve the styling or UI freely.
-- Focus is on functionality and clean user flow.
-- Works great on both desktop and mobile.
