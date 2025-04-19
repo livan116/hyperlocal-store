@@ -78,14 +78,6 @@ The server will run on http://localhost:5000
 
 ### 2. Frontend Setup
 
-```bash
-cd ../frontend
-npm install
-npm run dev
-```
-
-Frontend will run on http://localhost:5173
-
 ### Configure Environment
 
 Create a `.env` file inside `frontend/`:
@@ -95,6 +87,15 @@ VITE_API_URL=http://localhost:5000
 ```
 
 Replace with your Backend URL
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend will run on http://localhost:5173
+
 
 ## Pages Overview
 
