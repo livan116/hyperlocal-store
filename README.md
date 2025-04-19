@@ -29,6 +29,15 @@ hyperlocal-store-assignment/
 
 ## How to Run This Project
 
+Clone the repository:
+```bash
+git clone https://github.com/livan116/hyperlocal-store.git
+```
+Navigate to the hyperlocal-store directory:
+```bash
+cd hyperlocal-store
+```
+
 ### 1. Backend Setup
 
 Make sure MongoDB is running locally or you have a cloud MongoDB URI.
